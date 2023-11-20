@@ -2,11 +2,8 @@
 #include <iostream>
 #include <vector>
 #include <list>
-#include <cmath>
-#include <algorithm>
-#include <memory>
-#include <string>
 #include <queue>
+#include <string>
 
 #include "Point3D.h"
 #include "Vector3D.h"
