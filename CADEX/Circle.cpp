@@ -16,12 +16,13 @@ Vector3D Circle::GetDerivative(double t) const
     double dx = -_radius * sin(t);
     double dy = _radius * cos(t);
     double dz = 0.0;
+
     return Vector3D(dx, dy, dz);
 }
 
 bool Circle::IsValid() const
 {
-    return _radius > 0;
+    return _radius > 0.0;
 }
 
 double Circle::GetRadius()
